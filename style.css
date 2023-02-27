@@ -1,0 +1,210 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero{
+    background: url(manzara.jpg);
+    
+    background-position: top left;
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+    /*position: relative;*/
+}
+
+#hero_text{
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Seymour One', sans-serif;
+    /*color: black;
+    position: absolute;
+    top: 30px;
+    right: 0px;*/
+}
+
+header{
+    background-color: #FFC3A1;
+    padding: 8px 16px;
+}
+
+.navbar{
+    /* display: inline-block; */
+    width: 100% -150px;
+    float: right;
+}
+
+.navbar_items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar_item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header_logo{
+    color: #A75D5D;
+    text-decoration: none;
+    font-family: 'Seymour One', sans-serif;
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.navbar_item a{
+    color: #A75D5D;
+    text-decoration: none;
+}
+
+.navbar_item a:hover {
+    color: #FFD4D4
+}
+
+.navbar_item a:active{
+    color: #fff;
+}
+
+
+
+
+.navbar_item_contact a{
+    background-color: #E5E0FF;
+    padding: 4px 16px;
+    border: 0.5px solid #7286D3;
+    border-radius: 8px;
+    color: #7286D3;
+
+}
+
+/* .navbar_item_contact a{
+    background-color: #E5E0FF;
+    color: #7286D3;
+} */
+
+.navbar_item_contact a:hover{
+    background-color: #7286D3;
+    color: #E5E0FF;
+    border: 0.5px solid #E5E0FF;
+}
+
+.navbar_item_contact ::before{
+    content:none
+}
+
+#work{
+    padding: 100px 10px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 40px;
+}
+
+#work h2{
+    color: #7286D3;
+    font-size: 30px;
+}
+
+.col-3{
+    display: inline-block;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.icon h3{
+    color: #7286D3;
+    font-size: 26px;
+}
+
+.icon span{
+    color: #D3756B;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.col-2{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #FFD4D4;
+    margin-bottom:50px ;
+}
+
+.experience_left{
+    background: url('kod.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.experience_right{
+    padding: 30px;
+    vertical-align: center;
+    text-align: center;
+}
+
+#experience a{
+    background-color: #E5E0FF;
+    color: #7286D3;
+    padding: 6px 15px;
+    border: 0.5px solid #7286D3;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+#experience a:hover{
+    background-color: #7286D3;
+    color: #E5E0FF;
+    padding: 6px 15px;
+    border: 0.5px solid #7286D3;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#experience p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+#experience h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
